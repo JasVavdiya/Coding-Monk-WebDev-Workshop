@@ -247,8 +247,7 @@ body{
 }
 .footer-title{
     font-size: 10px;
-    margin-top: 25px;
     display: flex;
-    justify-self: center;
-    text-decoration: underline;
+    justify-content: center;
+    padding-bottom: 20px;
 }
