@@ -8,7 +8,6 @@
 }
 
 body{
-    
     background-color: rgb(45, 44, 44);
 }
 .website {
@@ -16,7 +15,6 @@ body{
     width: 100vw;
     height: 100vh;
     padding-top: 15px;
-
     max-width: 98vw;
 }
 
@@ -30,37 +28,21 @@ body{
 
 }
 
-.footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 10px;
-    font-size: 22px;
-    font-weight: bold;
 
-}
 
-.navbar-left-side {
+/* .navbar-left-side {
     display: flex;
     flex-direction: row;
 
-}
-.footer-left-side {
-    display: flex;
-    flex-direction: row;
+} */
 
-}
 
 .navbar-left-name {
     margin-left: 40px;
     margin-right: 40px;
 
 }
-.footer-left-name {
-    margin-left: 40px;
-    margin-right: 40px;
 
-}
 
 .navbar-left-name {
     margin-left: 40px;
@@ -73,18 +55,17 @@ body{
     display: flex;
     flex-direction: row;
 }
-.footer-right-side {
-    display: flex;
-    flex-direction: row;
-}
+
+
 
 
 .navbar-right-side p {
     margin-right: 25px;
 }
-.footer-right-side p {
-    margin-right: 25px;
-}
+
+
+
+
 
 .main {
 
@@ -108,7 +89,7 @@ body{
 }
 
 .hero-left-side img {
-    width: 30vw;
+    width: 450px;
 }
 
 .heading {
@@ -131,10 +112,11 @@ body{
 .project-title{
     font-size: 50px;
     font-weight: bolder;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     display: flex;
-    justify-self: center;
-    margin-left: 200px;
+    justify-content: center;
+    /* justify-self: center; */
+    /* margin-left: 200px; */
     text-decoration: underline;
 }
 
@@ -148,16 +130,16 @@ body{
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
+    /* transition: 0.3s; */
     margin-left: 50px;
     margin-top: 40px;
 
 }
   
   /* On mouse-over, add a deeper shadow */
-  .card:hover {
+  /* .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
+  } */
   .card img{
     width: 310px;
     height: 310px;
@@ -168,7 +150,7 @@ body{
     padding: 2px 16px;
   }
 
-  input[type=text], select, textarea {
+  #lname, #fname, #subject {
     width: 100%; /* Full width */
     padding: 12px; /* Some padding */ 
     border: 1px solid #ccc; /* Gray border */
@@ -177,12 +159,11 @@ body{
     margin-top: 6px; /* Add a top margin */
     margin-bottom: 16px; /* Bottom margin */
     /* resize: vertical; */
-    
-    color: white; /* Allow the user to vertically resize the textarea (not horizontally) */
+    color: black; /* Allow the user to vertically resize the textarea (not horizontally) */
   }
   
   /* Style the submit button with a specific background color etc */
-  input[type=submit] {
+  #submitButton {
     background-color: #04AA6D;
     color: white;
     padding: 12px 20px;
@@ -193,9 +174,9 @@ body{
   }
   
   /* When moving the mouse over the submit button, add a darker green color */
-  input[type=submit]:hover {
+  /* input[type=submit]:hover {
     background-color: #45a049;
-  }
+  } */
   
   /* Add a background color and some padding around the form */
   .container1 {
@@ -211,16 +192,40 @@ body{
     font-weight: bolder;
     margin-top: 50px;
     display: flex;
-    justify-self: center;
-    margin-left: 370px;
+    justify-content: center;
     text-decoration: underline;
 }
 
 
-.footer{
-    margin-top: 50px;
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 22px;
+    margin-top: 50px;  
+    font-weight: bold;
 
-    
+}
+
+.footer-left-name {
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+/* .footer-left-side {
+    display: flex;
+    flex-direction: row;
+
+} */
+
+.footer-right-side {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-right-side p {
+    margin-right: 25px;
 }
 
 
@@ -236,19 +241,11 @@ body{
     margin-left: 35%;
 }
 
-.form-title{
-    font-size: 50px;
-    font-weight: bolder;
-    margin-top: 50px;
-    display: flex;
-    justify-self: center;
-    margin-left: 370px;
-    text-decoration: underline;
-}
 .footer-title{
     font-size: 10px;
-    margin-top: 25px;
     display: flex;
-    justify-self: center;
-    text-decoration: underline;
+    justify-content: center;
+    padding-bottom: 20px;
+    
+    /* margin-top: 25px; */
 }
